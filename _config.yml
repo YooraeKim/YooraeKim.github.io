@@ -49,9 +49,9 @@ comments:
     category_id          : # Shown during giscus setup at https://giscus.app
     discussion_term      : # "pathname" (default), "url", "title", "og:title"
     reactions_enabled    : # '1' for enabled (default), '0' for disabled
-    theme                : # "light" (default), "dark", "dark_dimmed", "transparent_dark", "preferred_color_scheme"
+    theme                : "light" # "light" (default), "dark", "dark_dimmed", "transparent_dark", "preferred_color_scheme"
   staticman:
-    branch               : # "master"
+    branch               : "master" # "master"
     endpoint             : # "https://{your Staticman v3 API}/v3/entry/github/"
 reCaptcha:
   siteKey                :
@@ -80,8 +80,6 @@ baidu_site_verification  :
 # Social Sharing
 twitter:
   username               :
-Instagram:
-  username               : "@__yoo__r"
 facebook:
   username               :
   app_id                 :
@@ -96,7 +94,7 @@ social:
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "google-gtag", "custom"
+  provider               : "google" # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
     tracking_id          :
     anonymize_ip         : # true, false (default)
@@ -106,9 +104,9 @@ analytics:
 author:
   name             : "Yoorae Kim"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
+  bio              : "I am a student @ denison university, majoring in data analytics, conc. environmental studies."
   location         : "Seoul, Korea | Granville, OH, USA"
-  email            :
+  email            : kim_y4@denison.edu
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
