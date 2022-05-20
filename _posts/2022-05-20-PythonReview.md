@@ -1,3 +1,8 @@
+---
+layout: post
+title:  "Reviewing Python - Super basic knowledge"
+---
+
 ### Python Review - print(), input(), variable
 
 #### print()
