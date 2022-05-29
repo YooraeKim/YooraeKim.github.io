@@ -17,7 +17,7 @@ print(123)
     1
     [1, 2, 3]
     123
-    
+
 
 
 ```python
@@ -25,7 +25,7 @@ print('python')
 ```
 
     python
-    
+
 
 
 ```python
@@ -35,7 +35,7 @@ print('My name is', 'Yoorae.')
 ```
 
     My name is Yoorae.
-    
+
 
 #### input()
 
@@ -47,7 +47,7 @@ input()
 ```
 
     aaaaa
-    
+
 
 
 
@@ -62,7 +62,7 @@ input('Enter your name: ')
 ```
 
     Enter your name: Yoorae Kim
-    
+
 
 
 
@@ -77,7 +77,7 @@ age = input('How old are you? ')
 ```
 
     How old are you? 22
-    
+
 
 
 ```python
@@ -162,7 +162,7 @@ print("hello world")
 ```
 
     hello world
-    
+
 
 - Boolean
 
@@ -177,7 +177,7 @@ print(my_boolean)
 ```
 
     True
-    
+
 
 - List
 
@@ -210,7 +210,7 @@ for std in students:
     June
     Matthew
     Harry
-    
+
 
 
 ```python
@@ -223,7 +223,7 @@ print(random.choice(students))
 ```
 
     Matthew
-    
+
 
 
 ```python
@@ -269,13 +269,13 @@ my_tuple[0] = 'Jae'
 
 
     ---------------------------------------------------------------------------
-
+    
     TypeError                                 Traceback (most recent call last)
-
+    
     <ipython-input-41-23063bfa98fa> in <module>
           1 my_tuple = ('Jisoo', 'Mandy', 'Blaire')
     ----> 2 my_tuple[0] = 'Jae'
-    
+
 
     TypeError: 'tuple' object does not support item assignment
 
@@ -401,7 +401,7 @@ print(my_str)
 ```
 
     Denison in Ohio
-    
+
 
 
 ```python
@@ -411,7 +411,7 @@ print(my_str)
 ```
 
     Denison in Ohio
-    
+
 
 """string""" and '''string'''
 
@@ -594,7 +594,7 @@ print ( string2[7:] ) # from b(7th), all the way to the end.
 
     I love
     bubble gum
-    
+
 
 #### string.split() | string method
 
@@ -680,7 +680,7 @@ print('let us learn\nhow to code')
     ---------------
     let us learn
     how to code
-    
+
 
 
 ```python
@@ -695,7 +695,7 @@ print('let us learn\thow to \ncode')
     ---------------
     let us learn	how to 
     code
-    
+
 
 
 ```python
@@ -710,7 +710,7 @@ print('hello', end = '\n'); print('python')
     ---------------
     hello
     python
-    
+
 
 #### List
 
@@ -729,7 +729,7 @@ print(type(my_list)) # the type is 'list'
 
     []
     <class 'list'>
-    
+
 
 
 ```python
@@ -742,7 +742,7 @@ print(my_lst)
 
     [1, 2, 3]
     ['hello', 'python', 'world']
-    
+
 
 
 ```python
@@ -754,7 +754,7 @@ print(my_lst)
 ```
 
     ['hello', 'python', 'world', 'candy']
-    
+
 
 #### Index / Element
 
@@ -782,7 +782,7 @@ print(animals)
 ```
 
     ['Koala', 'Giraffe', 'Tiger', 'Cat']
-    
+
 
 
 ```python
@@ -812,7 +812,7 @@ print(animals)
 ```
 
     ['Cat', 'Cat', 'Dog', 'Giraffe', 'Koala', 'Squirrel', 'Tiger']
-    
+
 
 #### list.count()
 
@@ -861,7 +861,7 @@ print(type(my_tuple))
 
     ()
     <class 'tuple'>
-    
+
 
 
 ```python
@@ -870,7 +870,7 @@ print(my_tuple)
 ```
 
     (1, 2, 3)
-    
+
 
 
 ```python
@@ -879,7 +879,7 @@ print(my_tuple)
 ```
 
     (1, 2, 3)
-    
+
 
 #### Packing and Unpacking
 
@@ -902,7 +902,7 @@ print(num3)
     1
     2
     3
-    
+
 
 Here, we can observe that num1 is 1, and num2 is 2.
 
@@ -920,7 +920,7 @@ print(num2)
 
     2
     1
-    
+
 
 #### for 
 
@@ -945,7 +945,7 @@ for animal in animals:
     Koala
     Squirrel
     Tiger
-    
+
 
 
 ```python
@@ -956,7 +956,7 @@ for i in [1,2,3]:
     1
     2
     3
-    
+
 
 
 ```python
@@ -975,7 +975,7 @@ for my_str in 'hello world':
     r
     l
     d
-    
+
 
 #### range()
 
@@ -988,7 +988,7 @@ print(type(range(3)))
 
     range(0, 3)
     <class 'range'>
-    
+
 
 
 ```python
@@ -999,7 +999,7 @@ for n in range(0,3):
     0
     1
     2
-    
+
 
 
 ```python
@@ -1013,7 +1013,7 @@ for n in range(6):
     3
     4
     5
-    
+
 
 #### for x2 | 중첩반복문
 
@@ -1040,7 +1040,7 @@ for i in range(1,10):
     2 x 7 = 14
     2 x 8 = 16
     2 x 9 = 18
-    
+
 
 
 ```python
@@ -1121,7 +1121,7 @@ for j in range(2,10):
     9 x 7 = 63
     9 x 8 = 72
     9 x 9 = 81
-    
+
 
 #### Comprehension
 
@@ -1139,7 +1139,7 @@ print(odd_numbers)
 ```
 
     [1, 3, 5, 7, 9]
-    
+
 
 
 ```python
@@ -1149,7 +1149,7 @@ print(odd_numbers)
 ```
 
     [1, 3, 5, 7, 9]
-    
+
 
 #### Operator
 
@@ -1169,7 +1169,7 @@ print(count)
 ```
 
     2
-    
+
 
 
 ```python
@@ -1179,7 +1179,7 @@ print(count)
 ```
 
     3
-    
+
 
 ##### Arithmetic
 
@@ -1235,7 +1235,7 @@ print( 7 % 3 ) # leftovers.
     2.3333333333333335
     2
     1
-    
+
 
 
 ```python
@@ -1250,7 +1250,7 @@ for number in numbers:
     3
     5
     7
-    
+
 
 #### String operator
 
@@ -1267,7 +1267,7 @@ print('Welcome' + ' ' + 'to' + ' ' + 'Python')
 
     hello python
     Welcome to python
-    
+
 
 
 ```python
@@ -1277,8 +1277,9 @@ print('hello\n' * 3)
     hello
     hello
     hello
-    
-    
+
+
+​    
 
 
 ```python
@@ -1288,11 +1289,11 @@ def cls():
 cls()
 ```
 
-    
-    
-    
-    
-    
+
+​    
+​    
+​    
+​    
 
 #### Comparison operator
 
@@ -1318,7 +1319,7 @@ print (3 == 4)
     True
     False
     False
-    
+
 
 #### Logical operator
 
@@ -1339,7 +1340,7 @@ print (False and False)
     True
     False
     False
-    
+
 
 
 ```python
@@ -1353,7 +1354,7 @@ print (False or False)
     True
     True
     False
-    
+
 
 
 ```python
@@ -1364,7 +1365,7 @@ print (not True)
 
     True
     False
-    
+
 
 
 ```python
@@ -1431,7 +1432,7 @@ print('Mai' not in names) # True. Mai is not in names list.
     True
     False
     True
-    
+
 
 #### if , else, elif
 
@@ -1440,13 +1441,13 @@ print('Mai' not in names) # True. Mai is not in names list.
     order 1
     
     order 2 
-    
+
 `else` (if ' if ' is false, run ' else ' ):
 
     order 1
     
     order 2
-    
+
 `elif` another condition (True or False) :
 
     order 1
@@ -1473,7 +1474,7 @@ else:
 ```
 
     Hello. Nice to meet you, Claire.
-    
+
 
 #### Loop - While
 
@@ -1498,7 +1499,7 @@ while count < 4:
     count :  1
     count :  2
     count :  3
-    
+
 
 #### continue, break
 
@@ -1520,7 +1521,7 @@ while count < 10:
     count :  6
     count :  7
     count :  8
-    
+
 
 ### dictionary
 
@@ -1538,7 +1539,7 @@ print(my_dict)
 ```
 
     {'std1': 'Emily', 'std2': 'Casey', 'std3': 23}
-    
+
 
 
 ```python
@@ -1546,7 +1547,7 @@ print(my_dict['std1'])
 ```
 
     Emily
-    
+
 
 
 ```python
@@ -1556,7 +1557,7 @@ print(my_dict)
 ```
 
     {'std1': 'Emily', 'std2': 'Casey'}
-    
+
 
 
 ```python
@@ -1566,7 +1567,7 @@ for val in my_dict.values():
 
     Emily
     Casey
-    
+
 
 
 ```python
@@ -1576,7 +1577,7 @@ for key in my_dict.keys():
 
     std1
     std2
-    
+
 
 
 ```python
@@ -1586,7 +1587,7 @@ for key,val in my_dict.items():
 
     std1 Emily
     std2 Casey
-    
+
 
 #### Function def
 
@@ -1606,7 +1607,7 @@ Here, we are going to look at UDF.
    `return` result 
 
 ---
-    
+
 def : short for define
     
 
@@ -1643,7 +1644,7 @@ print(my_mul)
     (46, 408)
     46
     408
-    
+
 
 #### Module
 
@@ -1666,7 +1667,7 @@ print(random.choice(students))
 
     casey
     joy
-    
+
 
 
 ```python
@@ -1677,7 +1678,7 @@ print(random.sample(students,2)) # we can designate the sample size.
 ```
 
     ['claire', 'casey']
-    
+
 
 
 ```python
@@ -1687,7 +1688,7 @@ print(random.sample(range(1,46), 6))
 ```
 
     [29, 14, 25, 7, 42, 24]
-    
+
 
 
 ```python
@@ -1697,4 +1698,4 @@ print(random.randint(8,10)) # pick integer in between 8 ~ 10
 ```
 
     9
-    
+
