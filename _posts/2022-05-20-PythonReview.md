@@ -1699,3 +1699,11 @@ print(random.randint(8,10)) # pick integer in between 8 ~ 10
 
     9
 
+
+
+
+
+!['저 코딩 못하겠어요' 김유래](C:\Users\User\Documents\GitHub\YooraeKim.github.io\images\2022-05-20-PythonReview\'저 코딩 못하겠어요' 김유래.png)
+
+
+
